@@ -7,3 +7,22 @@ end
 
 
 
+#Boot an environment
+Vagrant up
+
+
+
+#SSH into machine
+vagrant ssh
+
+
+
+#Destroy the machine
+vagrant destroy
+
+
+#Remove the box
+vagrant box list
+
+vagrant box remove <box-name>
+
